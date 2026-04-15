@@ -1,6 +1,6 @@
-/************************************************
- *   Copyright (c) 2026 <jarvenja@gmail.com>
- ***********************************************/
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ * Copyright (c) 2026 J. Järvenpää <jarvenja@gmail.com>
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 #include <cstdlib>
 #include <iostream>
 #include <iomanip>

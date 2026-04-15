@@ -3,11 +3,11 @@
 #include <stdint.h>
 #include <climits>
 #include <vector>
-/*************************************************
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  * Functions for calculating hailstone sequence
  * 
- * Copyright (c) 2026 <jarvenja@gmail.com>
- ************************************************/
+ * Copyright (c) 2026 J. Järvenpää <jarvenja@gmail.com>
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 const char
     *const BLUE0="\033[0;34m",
     *const BLUE1="\033[1;34m",
@@ -22,8 +22,8 @@ const char
 const u_int64_t
     LSB = 1UL,
     MAX_N = ULLONG_MAX / 3;
-typedef std::vector<uint64_t> Array;
-void appendSequence(uint64_t, Array&);
+typedef std::vector<uint64_t> TArray;
+void appendSequence(uint64_t, TArray&);
 int bitcount(uint64_t);
 int hsb(uint64_t bits);
 uint64_t odd(uint64_t);

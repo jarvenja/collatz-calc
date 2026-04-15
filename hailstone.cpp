@@ -1,13 +1,13 @@
-/************************************************
- *   Copyright (c) 2026 <jarvenja@gmail.com>
- ***********************************************/
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ * Copyright (c) 2026 J. Järvenpää <jarvenja@gmail.com>
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 #include <iomanip>
 #include <iostream>
 #include <string>
 #include "hailstone.h"
 using namespace std;
 
-void appendSequence(uint64_t n, Array& a) {
+void appendSequence(uint64_t n, TArray& a) {
     for (a.push_back(n); n > LSB; a.push_back(n)) {
         n & 1 ? n = odd(n) : n >>= 1;
     }
@@ -58,7 +58,7 @@ void printOctaSequence(uint64_t n) {
 }
 
 void printSequence(uint64_t n, ostream& out) {
-    Array a;
+    TArray a;
     appendSequence(n, a);
     out << GREEN0;
     for (auto e : a) out << e << " ";

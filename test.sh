@@ -1,6 +1,7 @@
 #!/bin/sh
-#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
-#  Copyright (c) 2026 <jarvenja@gmail.com>
+#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
+#   Copyright (c) 2026 J. Järvenpää <jarvenja@gmail.com>
+#
 #=#=
 okay () { # testCase
     [ $# -gt 0 ] && echo -e "\e[92m<><><><> TEST CASE ${1}: OK\e[0m"
