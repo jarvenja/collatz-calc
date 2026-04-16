@@ -27,7 +27,7 @@ int hsb(uint64_t bits) {
     return i;
 }
 
-uint64_t odd (uint64_t n) {
+uint64_t odd(uint64_t n) {
     if (n > MAX_N) {
         printError("Number overflow!");
         exit(1);

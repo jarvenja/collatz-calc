@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
         cout
             << GREEN1 << "<><><> Collatz conjecture calculator <><><>\n"
             << GREEN0 << "Copyright (c) 2026 J. Järvenpää <jarvenja@gmail.com>\n\n"
-            << "Prints a Hailstone sequence from given number n\n\n"
+            << "Prints a Hailstone sequence from given number n\n"
             << "Usage: " << argv[0] << " [ b1101 | 007 | 1234 | 0xffff ]\n" << CLR;
     } else if (argc == 2) {
         uint64_t n = 0;
