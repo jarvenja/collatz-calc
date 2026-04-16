@@ -61,8 +61,8 @@ void printSequence(uint64_t n, ostream& out) {
     TArray a;
     appendSequence(n, a);
     out << GREEN0;
-    for (auto e : a) out << e << " ";
-    out << CLR << "\n-=- Total of " << dec << a.size() << " items. -=-\n";
+    for (auto e : a) out << e << ARROW;
+    out << "..." << CLR << "\n-=- Total of " << dec << a.size() << " items. -=-\n";
 }
 
 void printSequence(uint64_t n, ostream& out, const char* delim) {

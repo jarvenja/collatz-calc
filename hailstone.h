@@ -9,16 +9,18 @@
  * Copyright (c) 2026 J. Järvenpää <jarvenja@gmail.com>
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 const char
+    *const ARROW= " → ",
     *const BLUE0="\033[0;34m",
     *const BLUE1="\033[1;34m",
     *const CLEAR_BIT="\033[0;32m0",
     *const CLR="\033[0m",
-    *const FOLLOWS= " → ",
     *const GREEN0="\033[0;32m",
     *const GREEN1="\033[1;32m",
     *const RED0="\033[0;31m",
     *const RED1="\033[1;31m",
-    *const SET_BIT="\033[1;32m1";
+    *const SET_BIT="\033[1;32m1",
+    *const YELLOW0="\033[0;93m",
+    *const YELLOW1="\033[1;93m";
 const u_int64_t
     LSB = 1UL,
     MAX_N = ULLONG_MAX / 3;
